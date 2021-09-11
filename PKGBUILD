@@ -7,7 +7,7 @@ pkgdesc="A color management framework for visual effects and animation (mingw-w6
 arch=(any)
 url="https://opencolorio.org/"
 license=("BSD-3-Clause")
-makedepends=('mingw-w64-cmake' 'git')
+makedepends=('mingw-w64-cmake' 'mingw-w64-pystring' 'git')
 depends=(
 	'mingw-w64-crt'
 	'mingw-w64-yaml-cpp'
