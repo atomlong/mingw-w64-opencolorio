@@ -13,6 +13,7 @@ pkgbase = mingw-w64-opencolorio
 	depends = mingw-w64-freeglut
 	depends = mingw-w64-glew
 	depends = mingw-w64-openexr
+	depends = mingw-w64-expat
 	options = !strip
 	options = !buildflags
 	options = staticlibs
@@ -22,4 +23,3 @@ pkgbase = mingw-w64-opencolorio
 	sha256sums = 1b857e43fb4e3c048a88a00c379d1fd61c557a24a3f6a7d475daf588af8ea064
 
 pkgname = mingw-w64-opencolorio
-

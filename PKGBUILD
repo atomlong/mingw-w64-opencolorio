@@ -14,7 +14,8 @@ depends=(
 	'mingw-w64-lcms2'
 	'mingw-w64-freeglut'
 	'mingw-w64-glew'
-	'mingw-w64-openexr')
+	'mingw-w64-openexr'
+	'mingw-w64-expat')
 options=('!strip' '!buildflags' 'staticlibs')
 _repo="OpenColorIO"
 source=(
